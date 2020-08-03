@@ -55,7 +55,7 @@ public class AccessLogParser {
 	public static void main(String[] args) throws IOException, ParseException {
 		System.out.println("AccessLogsProcessor.....");
 
-		inputFileDateFormat.setTimeZone(TimeZone.getTimeZone("GMT"));
+		/* inputFileDateFormat.setTimeZone(TimeZone.getTimeZone("GMT"));
 		outputFileDateFormat.setTimeZone(TimeZone.getTimeZone("GMT"));
 		dateTimeFormat.setTimeZone(TimeZone.getTimeZone("GMT"));
 		logFileDateFormat.setTimeZone(TimeZone.getTimeZone("GMT"));
@@ -136,7 +136,7 @@ public class AccessLogParser {
 			db1 = new dbora();
 		}
 
-		showFiles(file, csvWriter, db1);
+		showFiles(file, csvWriter, db1); */
 		// writeToDB();
 	}
 
